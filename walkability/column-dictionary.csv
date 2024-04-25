@@ -1,0 +1,105 @@
+﻿GEOID10,Census block group 12-digit FIPS code (2010)
+GEOID20,Census block group 12-digit FIPS code (2018)
+STATEFP,State FIPS code
+COUNTYFP,County FIPS cod
+TRACTCE,Census tract FIPS code in which CBG resides
+BLKGRPCE,Census block group FIPS code in which CBG resides
+CSA,Combined Statistical Area (CSA) Code
+CSA_Name,Name of CSA in which CBG resides
+CBSA,"FIPS for Core-Based Statistical Area (CBSA) in which
+CBG resides"
+CBSA_Name,Name of CBSA in which CBG resides
+CBSA_POP,Total population in CBSA
+CBSA_EMP,Total employment in CBSA
+CBSA_WRK,Total number of workers that live in CBSA
+Ac_Total,Total geometric area (acres) of the CBG
+Ac_Water,Total water area (acres)
+Ac_Land,Total land area (acres)
+Ac_Unpr,"Total land area (acres) that is not protected from
+development (i.e., not a park, natural area or conservation
+area)"
+TotPop,"Population, 2018"
+CountHU,"Housing units, 2018"
+HH,"Households (occupied housing units), 2018"
+P_WrkAge,"Percent of population that is working aged 18 to 64 years, 2018"
+AutoOwn0,"Number of households in CBG that own zero automobiles, 2018"
+Pct_AO0,"Percent of zero-car households in CBG, 2018"
+AutoOwn1,"Number of households in CBG that own one automobile, 2018"
+Pct_AO1,"Percent of one-car households in CBG, 2018"
+AutoOwn2p,"Number of households in CBG that own two or more automobiles, 2018"
+Pct_AO2p,"Percent of two-plus-car households in CBG, 2018"
+Workers,"Count of workers in CBG (home location), 2017"
+R_LowWageWk,"Count of workers earning $1250/month or less (home location), 2017"
+R_MedWageWk,"Count of workers earning more than $1250/month but less than $3333/month (home location), 2017"
+R_HiWageWk,"Count of workers earning $3333/month or more (home location), 2017"
+R_PCTLOWWAGE,"Percent of low wage workers in a CBG (home location), 2017"
+TotEmp,"Total employment, 2017"
+E5_Ret,"Retail jobs within a 5-tier employment classification scheme (LEHD: CNS07), 2017"
+E5_Off,"Office jobs within a 5-tier employment classification scheme (LEHD: CNS09 + CNS10 + CNS11 + CNS13 + CNS20) , 2017"
+E5_Ind,"Industrial jobs within a 5-tier employment classification scheme (LEHD: CNS01 + CNS02 + CNS03 + CNS04 + CNS05 + CNS06 + CNS08) , 2017"
+E5_Svc,"Service jobs within a 5-tier employment classification scheme (LEHD: CNS12 + CNS14 + CNS15 + CNS16 + CNS19) , 2017"
+E5_Ent,"Entertainment jobs within a 5-tier employment classification scheme (LEHD: CNS17 + CNS18), 2017"
+E8_Ret,"Retail jobs within an 8-tier employment classification scheme (LEHD: CNS07), 2017"
+E8_off,"Office jobs within an 8-tier employment classification scheme (LEHD: CNS09 + CNS10 + CNS11 + CNS13) , 2017"
+E8_Ind,"Industrial jobs within an 8-tier employment classification scheme (LEHD: CNS01 + CNS02 + CNS03 + CNS04 + CNS05 + CNS06 + CNS08) , 2017"
+E8_Svc,"Service jobs within an 8-tier employment classification scheme (LEHD: CNS12 + CNS14 + CNS19) , 2017"
+E8_Ent,"Entertainment jobs within an 8-tier employment classification scheme (LEHD: CNS17 + CNS18), 2017"
+E8_Ed,"Education jobs within an 8-tier employment classification scheme (LEHD: CNS15), 2017"
+E8_Hlth,"Health care jobs within an 8-tier employment classification scheme (LEHD: CNS16), 2017"
+E8_Pub,"Public administration jobs within an 8-tier employment classification scheme (LEHD: CNS20), 2017"
+E_LowWageWk,"# of workers earning $1250/month or less (work location), 2017"
+E_MedWageWk,"# of workers earning more than $1250/month but less than $3333/month (work location), 2017"
+E_HiWageWk,"# of workers earning $3333/month or more (work location), 2017"
+E_PctLowWage,"% LowWageWk of total #workers in a CBG (work location), 2017"
+D3A,Total road network density
+D3AAO,Network density in terms of facility miles of auto-oriented links per square mile
+D3AMM,Network density in terms of facility miles of multi-modal links per square mile
+D3APO,Network density in terms of facility miles of pedestrianoriented links per square mile
+D3B,"Street intersection density (weighted, auto-oriented intersections eliminated)"
+D3BAO,Intersection density in terms of auto-oriented intersections per square mile
+D3BMM3,Intersection density in terms of multi-modal intersections having three legs per square mile
+D3BMM4,Intersection density in terms of multi-modal intersections having four or more legs per square mile
+D3BPO3,Intersection density in terms of pedestrian-oriented intersections having three legs per square mile
+D3BPO4,Intersection density in terms of pedestrian-oriented intersections having four or more legs per square mile
+D4A,Distance from the population-weighted centroid to nearest transit stop (meters)
+D4B025,Proportion of CBG employment within ¼ mile of fixedguideway transit stop
+D4B050,Proportion of CBG employment within ½ mile of fixedguideway transit stop
+D4C,Aggregate frequency of transit service within 0.25 miles of CBG boundary per hour during evening peak period
+D5AR,"Jobs within 45 minutes auto travel time, time- decay (network travel time) weighted"
+D5AE,"Working age population within 45 minutes auto travel time, time-decay (network travel time) weighted"
+D5BR,"Jobs within 45-minute transit commute, distance decay (walk network travel time, GTFS schedules) weighted"
+D5BE,"Working age population within 45-minute transit commute, time decay (walk network travel time, GTFS schedules) weighted"
+NatWalkInd,"Walkability index comprised of weighted sum of the ranked values of [D2a_EpHHm] (D2A_Ranked),[D2b_E8MixA] (D2B_Ranked), [D3b] (D3B_Ranked)
+and [D4a] (D4A_Ranked) "
+Shape_Length,
+Shape_Area,
+geometry,
+ACCESS2,Current lack of health insurance among adults aged 18â€“64 Years
+ARTHRITIS,Arthritis among adults aged >=18 Years
+BINGE,Binge drinking among adults aged >=18 Years
+BPHIGH,High blood pressure among adults aged >=18 Years
+BPMED,Taking medicine for high blood pressure control among adults aged >=18 Years with high blood pressure
+CANCER,Cancer (excluding skin cancer) among adults aged >=18 Years
+CASTHMA,Current asthma among adults aged >=18 Years
+CHD,Coronary heart disease among adults aged >=18 Years
+CHECKUP,Visits to doctor for routine checkup within the past Year among adults aged >=18 Years
+CHOLSCREEN,Cholesterol screening among adults aged >=18 Years
+COLON_SCREEN,"Fecal occult blood test, sigmoidoscopy, or colonoscopy among adults aged 50â€“75 Years"
+COPD,Chronic obstructive pulmonary disease among adults aged >=18 Years
+COREM,"Older adult men aged >=65 Years who are up to date on a core set of clinical preventive services: Flu shot past Year, PPV shot ever, Colorectal cancer screening"
+COREW,"Older adult women aged >=65 Years who are up to date on a core set of clinical preventive services: Flu shot past Year, PPV shot ever, Colorectal cancer screening, and Mammogram past 2 Years"
+CSMOKING,Current smoking among adults aged >=18 Years
+DENTAL,Visits to dentist or dental clinic among adults aged >=18 Years
+DIABETES,Diagnosed diabetes among adults aged >=18 Years
+HIGHCHOL,High cholesterol among adults aged >=18 Years who have been screened in the past 5 Years
+KIDNEY,Chronic kidney disease among adults aged >=18 Years
+LPA,No leisure-time physical activity among adults aged >=18 Years
+MAMMOUSE,Mammography use among women aged 50â€“74 Years
+MHLTH,Mental health not good for >=14 days among adults aged >=18 Years
+OBESITY,Obesity among adults aged >=18 Years
+PAPTEST,Papanicolaou smear use among adult women aged 21â€“65 Years
+PHLTH,Physical health not good for >=14 days among adults aged >=18 Years
+SLEEP,Sleeping less than 7 hours among adults aged >=18 Years
+STROKE,Stroke among adults aged >=18 Years
+TEETHLOST,All teeth lost among adults aged >=65 Years
+Income,Income
