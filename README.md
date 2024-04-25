@@ -36,3 +36,18 @@ The study found that income and other **wage-related data** were the best predic
 
 ## Description of Repository
 
+The code of the project is contained in four Jupiter notebooks:
+
+- [citydata.ipynb](https://github.com/nina-adhikari/urban-design-and-health/blob/main/citydata.ipynb): We import the datasets, clean and process the data, merge datasets, ensure that it is in the correct format / data types, and store it for future use.
+- [eda.ipynb](https://github.com/nina-adhikari/urban-design-and-health/blob/main/eda.ipynb): This is the notebook for the EDA (Exploratory Data Analysis). We carry out Pandas profiling, calculate Pearson correlation, and generally analyze the data in different ways (through Seaborn pair plots, etc) to select features.
+- [regression+pca.ipynb](https://github.com/nina-adhikari/urban-design-and-health/blob/main/regression+pca.ipynb): Further feature selection using Lasso and basic regression. Also features some exploration of PCA (that we ultimately ended up not using) for dimensionality reduction.
+- [mvp.ipynb](https://github.com/nina-adhikari/urban-design-and-health/blob/main/mvp.ipynb): A notebook containing the Minimum Viable Product (MVP). Self-contained and essentially the final product of the project. This notebook carries out all of the necessary steps from the other notebooks, and then carries out several different iterations of regression on the features, iteratively dropping features at each step, until we end up with the final model. Also contains code at various points for generating the figures and maps used in the presentation. We end with a brief exploration of using the same features to predict the outcome in a different city (the Providence metropolitan area).
+
+Furthermore, there is one directory that contains the data:
+- [walkability](https://github.com/nina-adhikari/urban-design-and-health/tree/main/walkability): contains the data used by the notebooks. The notebooks were written in Google Colab so the data was actually loaded from Google Drive, but the files here can be added to Google drive to execute the code. There are three data files not included here due to size constraints; they can be downloaded from the following links:
+-- [epdownload.csv](https://edg.epa.gov/EPADataCommons/public/OA/EPA_SmartLocationDatabase_V3_Jan_2021_Final.csv)
+-- [health.csv](https://data.cdc.gov/500-Cities-Places/500-Cities-Local-Data-for-Better-Health-2019-relea/6vp6-wxuq/about_data)
+-- [walk-index.gdb](https://edg.epa.gov/EPADataCommons/public/OA/WalkabilityIndex.zip)
+
+## Acknowledgments
+This project was carried out as part of the [Erdos Institute](https://www.erdosinstitute.org/)'s Spring 2024 Data Science bootcamp. 
